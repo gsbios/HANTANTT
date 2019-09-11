@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406D34C02328A64D003EFCC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34BF2328A64D003EFCC2 /* AppDelegate.swift */; };
+		406D34C22328A64D003EFCC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34C12328A64D003EFCC2 /* ViewController.swift */; };
+		406D34C52328A64D003EFCC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D34C32328A64D003EFCC2 /* Main.storyboard */; };
+		406D34C72328A64E003EFCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406D34C62328A64E003EFCC2 /* Assets.xcassets */; };
+		406D34CA2328A64E003EFCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */; };
+		406D34D52328A64E003EFCC2 /* HDTTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34D42328A64E003EFCC2 /* HDTTSTests.swift */; };
+		406D34E02328A64E003EFCC2 /* HDTTSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34DF2328A64E003EFCC2 /* HDTTSUITests.swift */; };
+		E2B06450C3550DDE91A44E6F /* Pods_HDTTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F082CFE09B96FB551FD79F /* Pods_HDTTS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406D34D12328A64E003EFCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406D34B42328A64D003EFCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406D34BB2328A64D003EFCC2;
+			remoteInfo = HDTTS;
+		};
+		406D34DC2328A64E003EFCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406D34B42328A64D003EFCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406D34BB2328A64D003EFCC2;
+			remoteInfo = HDTTS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C85D7522522AF210B4A0A8E /* Pods-HDTTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDTTS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS.release.xcconfig"; sourceTree = "<group>"; };
+		406D34BC2328A64D003EFCC2 /* HDTTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDTTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D34BF2328A64D003EFCC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		406D34C12328A64D003EFCC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		406D34C42328A64D003EFCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406D34C62328A64E003EFCC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406D34C92328A64E003EFCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		406D34CB2328A64E003EFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406D34D02328A64E003EFCC2 /* HDTTSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDTTSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D34D42328A64E003EFCC2 /* HDTTSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTTSTests.swift; sourceTree = "<group>"; };
+		406D34D62328A64E003EFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406D34DB2328A64E003EFCC2 /* HDTTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDTTSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D34DF2328A64E003EFCC2 /* HDTTSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTTSUITests.swift; sourceTree = "<group>"; };
+		406D34E12328A64E003EFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F082CFE09B96FB551FD79F /* Pods_HDTTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDTTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627045B0EB7DE0830426B91 /* Pods-HDTTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDTTS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406D34B92328A64D003EFCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B06450C3550DDE91A44E6F /* Pods_HDTTS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34CD2328A64E003EFCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34D82328A64E003EFCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3030C040E6C3B18D343C2B5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F082CFE09B96FB551FD79F /* Pods_HDTTS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		406D34B32328A64D003EFCC2 = {
+			isa = PBXGroup;
+			children = (
+				406D34BE2328A64D003EFCC2 /* HDTTS */,
+				406D34D32328A64E003EFCC2 /* HDTTSTests */,
+				406D34DE2328A64E003EFCC2 /* HDTTSUITests */,
+				406D34BD2328A64D003EFCC2 /* Products */,
+				CBE98AC893A84449CFCB45B1 /* Pods */,
+				3030C040E6C3B18D343C2B5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		406D34BD2328A64D003EFCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406D34BC2328A64D003EFCC2 /* HDTTS.app */,
+				406D34D02328A64E003EFCC2 /* HDTTSTests.xctest */,
+				406D34DB2328A64E003EFCC2 /* HDTTSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406D34BE2328A64D003EFCC2 /* HDTTS */ = {
+			isa = PBXGroup;
+			children = (
+				406D34BF2328A64D003EFCC2 /* AppDelegate.swift */,
+				406D34C12328A64D003EFCC2 /* ViewController.swift */,
+				406D34C32328A64D003EFCC2 /* Main.storyboard */,
+				406D34C62328A64E003EFCC2 /* Assets.xcassets */,
+				406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */,
+				406D34CB2328A64E003EFCC2 /* Info.plist */,
+			);
+			path = HDTTS;
+			sourceTree = "<group>";
+		};
+		406D34D32328A64E003EFCC2 /* HDTTSTests */ = {
+			isa = PBXGroup;
+			children = (
+				406D34D42328A64E003EFCC2 /* HDTTSTests.swift */,
+				406D34D62328A64E003EFCC2 /* Info.plist */,
+			);
+			path = HDTTSTests;
+			sourceTree = "<group>";
+		};
+		406D34DE2328A64E003EFCC2 /* HDTTSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				406D34DF2328A64E003EFCC2 /* HDTTSUITests.swift */,
+				406D34E12328A64E003EFCC2 /* Info.plist */,
+			);
+			path = HDTTSUITests;
+			sourceTree = "<group>";
+		};
+		CBE98AC893A84449CFCB45B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B627045B0EB7DE0830426B91 /* Pods-HDTTS.debug.xcconfig */,
+				3C85D7522522AF210B4A0A8E /* Pods-HDTTS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406D34BB2328A64D003EFCC2 /* HDTTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D34E42328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTS" */;
+			buildPhases = (
+				26AA0F982C51183510B23D02 /* [CP] Check Pods Manifest.lock */,
+				406D34B82328A64D003EFCC2 /* Sources */,
+				406D34B92328A64D003EFCC2 /* Frameworks */,
+				406D34BA2328A64D003EFCC2 /* Resources */,
+				5B283ED189B7DC74E6DA1132 /* [CP] Embed Pods Frameworks */,
+				7F0BBCAF870D5C97BAD00D3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDTTS;
+			productName = HDTTS;
+			productReference = 406D34BC2328A64D003EFCC2 /* HDTTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406D34CF2328A64E003EFCC2 /* HDTTSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D34E72328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTSTests" */;
+			buildPhases = (
+				406D34CC2328A64E003EFCC2 /* Sources */,
+				406D34CD2328A64E003EFCC2 /* Frameworks */,
+				406D34CE2328A64E003EFCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406D34D22328A64E003EFCC2 /* PBXTargetDependency */,
+			);
+			name = HDTTSTests;
+			productName = HDTTSTests;
+			productReference = 406D34D02328A64E003EFCC2 /* HDTTSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		406D34DA2328A64E003EFCC2 /* HDTTSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D34EA2328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTSUITests" */;
+			buildPhases = (
+				406D34D72328A64E003EFCC2 /* Sources */,
+				406D34D82328A64E003EFCC2 /* Frameworks */,
+				406D34D92328A64E003EFCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406D34DD2328A64E003EFCC2 /* PBXTargetDependency */,
+			);
+			name = HDTTSUITests;
+			productName = HDTTSUITests;
+			productReference = 406D34DB2328A64E003EFCC2 /* HDTTSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406D34B42328A64D003EFCC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					406D34BB2328A64D003EFCC2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					406D34CF2328A64E003EFCC2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 406D34BB2328A64D003EFCC2;
+					};
+					406D34DA2328A64E003EFCC2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 406D34BB2328A64D003EFCC2;
+					};
+				};
+			};
+			buildConfigurationList = 406D34B72328A64D003EFCC2 /* Build configuration list for PBXProject "HDTTS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406D34B32328A64D003EFCC2;
+			productRefGroup = 406D34BD2328A64D003EFCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406D34BB2328A64D003EFCC2 /* HDTTS */,
+				406D34CF2328A64E003EFCC2 /* HDTTSTests */,
+				406D34DA2328A64E003EFCC2 /* HDTTSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406D34BA2328A64D003EFCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D34CA2328A64E003EFCC2 /* LaunchScreen.storyboard in Resources */,
+				406D34C72328A64E003EFCC2 /* Assets.xcassets in Resources */,
+				406D34C52328A64D003EFCC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34CE2328A64E003EFCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34D92328A64E003EFCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26AA0F982C51183510B23D02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HDTTS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B283ED189B7DC74E6DA1132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTTPageController/SwiftTTPageController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTTPageController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0BBCAF870D5C97BAD00D3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-resources.sh",
+				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_QQ.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_WeChat.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK_JS_QQ.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK_JS_WeChat.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406D34B82328A64D003EFCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D34C22328A64D003EFCC2 /* ViewController.swift in Sources */,
+				406D34C02328A64D003EFCC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34CC2328A64E003EFCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D34D52328A64E003EFCC2 /* HDTTSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D34D72328A64E003EFCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D34E02328A64E003EFCC2 /* HDTTSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406D34D22328A64E003EFCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406D34BB2328A64D003EFCC2 /* HDTTS */;
+			targetProxy = 406D34D12328A64E003EFCC2 /* PBXContainerItemProxy */;
+		};
+		406D34DD2328A64E003EFCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406D34BB2328A64D003EFCC2 /* HDTTS */;
+			targetProxy = 406D34DC2328A64E003EFCC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		406D34C32328A64D003EFCC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D34C42328A64D003EFCC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D34C92328A64E003EFCC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406D34E22328A64E003EFCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		406D34E32328A64E003EFCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406D34E52328A64E003EFCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B627045B0EB7DE0830426B91 /* Pods-HDTTS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		406D34E62328A64E003EFCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C85D7522522AF210B4A0A8E /* Pods-HDTTS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		406D34E82328A64E003EFCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDTTS.app/HDTTS";
+			};
+			name = Debug;
+		};
+		406D34E92328A64E003EFCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDTTS.app/HDTTS";
+			};
+			name = Release;
+		};
+		406D34EB2328A64E003EFCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HDTTS;
+			};
+			name = Debug;
+		};
+		406D34EC2328A64E003EFCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82659ZG7A7;
+				INFOPLIST_FILE = HDTTSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HDTTS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406D34B72328A64D003EFCC2 /* Build configuration list for PBXProject "HDTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D34E22328A64E003EFCC2 /* Debug */,
+				406D34E32328A64E003EFCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D34E42328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D34E52328A64E003EFCC2 /* Debug */,
+				406D34E62328A64E003EFCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D34E72328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D34E82328A64E003EFCC2 /* Debug */,
+				406D34E92328A64E003EFCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D34EA2328A64E003EFCC2 /* Build configuration list for PBXNativeTarget "HDTTSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D34EB2328A64E003EFCC2 /* Debug */,
+				406D34EC2328A64E003EFCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406D34B42328A64D003EFCC2 /* Project object */;
+}
