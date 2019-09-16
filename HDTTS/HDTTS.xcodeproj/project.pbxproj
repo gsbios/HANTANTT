@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4006B8822328EC13008D2855 /* FriendRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006B8812328EC13008D2855 /* FriendRootController.swift */; };
+		4006B8842328EC55008D2855 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006B8832328EC55008D2855 /* MeViewController.swift */; };
+		4006B8862328EC7F008D2855 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006B8852328EC7F008D2855 /* AllViewController.swift */; };
+		4006B8882328F602008D2855 /* KLTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006B8872328F602008D2855 /* KLTNavigationController.swift */; };
+		4006B88C2328F630008D2855 /* KLTNaviagtionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4006B88B2328F630008D2855 /* KLTNaviagtionViewController.m */; };
+		4006B88F23291408008D2855 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4006B88E23291408008D2855 /* AnimationController.m */; };
 		406D34C02328A64D003EFCC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34BF2328A64D003EFCC2 /* AppDelegate.swift */; };
 		406D34C22328A64D003EFCC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34C12328A64D003EFCC2 /* ViewController.swift */; };
 		406D34C52328A64D003EFCC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D34C32328A64D003EFCC2 /* Main.storyboard */; };
@@ -14,6 +20,11 @@
 		406D34CA2328A64E003EFCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */; };
 		406D34D52328A64E003EFCC2 /* HDTTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34D42328A64E003EFCC2 /* HDTTSTests.swift */; };
 		406D34E02328A64E003EFCC2 /* HDTTSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D34DF2328A64E003EFCC2 /* HDTTSUITests.swift */; };
+		406D351C2328C4C5003EFCC2 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D351B2328C4C5003EFCC2 /* BaseTabbarController.swift */; };
+		406D351E2328C6C4003EFCC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D351D2328C6C4003EFCC2 /* HomeViewController.swift */; };
+		406D35202328C73D003EFCC2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D351F2328C73C003EFCC2 /* BaseViewController.swift */; };
+		406D35222328C7B0003EFCC2 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D35212328C7B0003EFCC2 /* constant.swift */; };
+		406D35242328CF49003EFCC2 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D35232328CF49003EFCC2 /* HUD.swift */; };
 		E2B06450C3550DDE91A44E6F /* Pods_HDTTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F082CFE09B96FB551FD79F /* Pods_HDTTS.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +47,15 @@
 
 /* Begin PBXFileReference section */
 		3C85D7522522AF210B4A0A8E /* Pods-HDTTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDTTS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS.release.xcconfig"; sourceTree = "<group>"; };
+		4006B8812328EC13008D2855 /* FriendRootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRootController.swift; sourceTree = "<group>"; };
+		4006B8832328EC55008D2855 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		4006B8852328EC7F008D2855 /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		4006B8872328F602008D2855 /* KLTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLTNavigationController.swift; sourceTree = "<group>"; };
+		4006B8892328F62F008D2855 /* HDTTS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HDTTS-Bridging-Header.h"; sourceTree = "<group>"; };
+		4006B88A2328F630008D2855 /* KLTNaviagtionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTNaviagtionViewController.h; sourceTree = "<group>"; };
+		4006B88B2328F630008D2855 /* KLTNaviagtionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTNaviagtionViewController.m; sourceTree = "<group>"; };
+		4006B88D23291408008D2855 /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		4006B88E23291408008D2855 /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
 		406D34BC2328A64D003EFCC2 /* HDTTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDTTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406D34BF2328A64D003EFCC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406D34C12328A64D003EFCC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,11 @@
 		406D34DB2328A64E003EFCC2 /* HDTTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDTTSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406D34DF2328A64E003EFCC2 /* HDTTSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTTSUITests.swift; sourceTree = "<group>"; };
 		406D34E12328A64E003EFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406D351B2328C4C5003EFCC2 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		406D351D2328C6C4003EFCC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		406D351F2328C73C003EFCC2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		406D35212328C7B0003EFCC2 /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		406D35232328CF49003EFCC2 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		B0F082CFE09B96FB551FD79F /* Pods_HDTTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDTTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B627045B0EB7DE0830426B91 /* Pods-HDTTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDTTS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,12 +137,9 @@
 		406D34BE2328A64D003EFCC2 /* HDTTS */ = {
 			isa = PBXGroup;
 			children = (
-				406D34BF2328A64D003EFCC2 /* AppDelegate.swift */,
-				406D34C12328A64D003EFCC2 /* ViewController.swift */,
-				406D34C32328A64D003EFCC2 /* Main.storyboard */,
-				406D34C62328A64E003EFCC2 /* Assets.xcassets */,
-				406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */,
-				406D34CB2328A64E003EFCC2 /* Info.plist */,
+				406D34EE2328A87E003EFCC2 /* ViewControllers */,
+				406D35112328A92D003EFCC2 /* com */,
+				406D350F2328A8D0003EFCC2 /* Src */,
 			);
 			path = HDTTS;
 			sourceTree = "<group>";
@@ -140,6 +162,383 @@
 			path = HDTTSUITests;
 			sourceTree = "<group>";
 		};
+		406D34EE2328A87E003EFCC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				406D34F42328A87E003EFCC2 /* BaseController */,
+				406D350A2328A87E003EFCC2 /* Login */,
+				406D34EF2328A87E003EFCC2 /* Home */,
+				406D34FB2328A87E003EFCC2 /* ZT */,
+				406D34F62328A87E003EFCC2 /* Publish */,
+				406D35052328A87E003EFCC2 /* Servers */,
+				406D35002328A87E003EFCC2 /* Me */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		406D34EF2328A87E003EFCC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				406D34F02328A87E003EFCC2 /* ViewModel */,
+				406D34F12328A87E003EFCC2 /* model */,
+				406D34F22328A87E003EFCC2 /* View */,
+				406D34F32328A87E003EFCC2 /* Cotroller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		406D34F02328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D34F12328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D34F22328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D34F32328A87E003EFCC2 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				406D351D2328C6C4003EFCC2 /* HomeViewController.swift */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		406D34F42328A87E003EFCC2 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				406D351F2328C73C003EFCC2 /* BaseViewController.swift */,
+				406D351B2328C4C5003EFCC2 /* BaseTabbarController.swift */,
+				406D34F52328A87E003EFCC2 /* KlTanimateNav */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		406D34F52328A87E003EFCC2 /* KlTanimateNav */ = {
+			isa = PBXGroup;
+			children = (
+				4006B88D23291408008D2855 /* AnimationController.h */,
+				4006B88E23291408008D2855 /* AnimationController.m */,
+				4006B8872328F602008D2855 /* KLTNavigationController.swift */,
+				4006B88A2328F630008D2855 /* KLTNaviagtionViewController.h */,
+				4006B88B2328F630008D2855 /* KLTNaviagtionViewController.m */,
+				4006B8892328F62F008D2855 /* HDTTS-Bridging-Header.h */,
+			);
+			path = KlTanimateNav;
+			sourceTree = "<group>";
+		};
+		406D34F62328A87E003EFCC2 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				406D34F72328A87E003EFCC2 /* ViewModel */,
+				406D34F82328A87E003EFCC2 /* Controller */,
+				406D34F92328A87E003EFCC2 /* model */,
+				406D34FA2328A87E003EFCC2 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		406D34F72328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D34F82328A87E003EFCC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406D34F92328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D34FA2328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D34FB2328A87E003EFCC2 /* ZT */ = {
+			isa = PBXGroup;
+			children = (
+				406D34FD2328A87E003EFCC2 /* Controller */,
+				406D34FF2328A87E003EFCC2 /* View */,
+				406D34FE2328A87E003EFCC2 /* model */,
+				406D34FC2328A87E003EFCC2 /* ViewModel */,
+			);
+			path = ZT;
+			sourceTree = "<group>";
+		};
+		406D34FC2328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D34FD2328A87E003EFCC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4006B8812328EC13008D2855 /* FriendRootController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406D34FE2328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D34FF2328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D35002328A87E003EFCC2 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				406D35022328A87E003EFCC2 /* Controller */,
+				406D35012328A87E003EFCC2 /* ViewModel */,
+				406D35032328A87E003EFCC2 /* model */,
+				406D35042328A87E003EFCC2 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		406D35012328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D35022328A87E003EFCC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4006B8832328EC55008D2855 /* MeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406D35032328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D35042328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D35052328A87E003EFCC2 /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				406D35072328A87E003EFCC2 /* Controller */,
+				406D35062328A87E003EFCC2 /* ViewModel */,
+				406D35082328A87E003EFCC2 /* model */,
+				406D35092328A87E003EFCC2 /* View */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
+		406D35062328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D35072328A87E003EFCC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4006B8852328EC7F008D2855 /* AllViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406D35082328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D35092328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D350A2328A87E003EFCC2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				406D350B2328A87E003EFCC2 /* ViewModel */,
+				406D350C2328A87E003EFCC2 /* Controller */,
+				406D350D2328A87E003EFCC2 /* model */,
+				406D350E2328A87E003EFCC2 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		406D350B2328A87E003EFCC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		406D350C2328A87E003EFCC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406D350D2328A87E003EFCC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		406D350E2328A87E003EFCC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406D350F2328A8D0003EFCC2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				406D35102328A8D0003EFCC2 /* Test */,
+				406D34BF2328A64D003EFCC2 /* AppDelegate.swift */,
+				406D34C12328A64D003EFCC2 /* ViewController.swift */,
+				406D34C82328A64E003EFCC2 /* LaunchScreen.storyboard */,
+				406D34C32328A64D003EFCC2 /* Main.storyboard */,
+				406D34C62328A64E003EFCC2 /* Assets.xcassets */,
+				406D34CB2328A64E003EFCC2 /* Info.plist */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		406D35102328A8D0003EFCC2 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		406D35112328A92D003EFCC2 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				406D35122328A92D003EFCC2 /* Component */,
+				406D35132328A92D003EFCC2 /* Protocol */,
+				406D35142328A92D003EFCC2 /* Common */,
+				406D35152328A92D003EFCC2 /* lib */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		406D35122328A92D003EFCC2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				406D35192328BFF7003EFCC2 /* TTImagePreviewKit */,
+				406D35162328BFF7003EFCC2 /* PickerView */,
+				406D351A2328BFF7003EFCC2 /* hud */,
+				406D35182328BFF7003EFCC2 /* Reachablilty */,
+				406D35172328BFF7003EFCC2 /* Refresh */,
+				406D35212328C7B0003EFCC2 /* constant.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		406D35132328A92D003EFCC2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		406D35142328A92D003EFCC2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		406D35152328A92D003EFCC2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		406D35162328BFF7003EFCC2 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		406D35172328BFF7003EFCC2 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		406D35182328BFF7003EFCC2 /* Reachablilty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reachablilty;
+			sourceTree = "<group>";
+		};
+		406D35192328BFF7003EFCC2 /* TTImagePreviewKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TTImagePreviewKit;
+			sourceTree = "<group>";
+		};
+		406D351A2328BFF7003EFCC2 /* hud */ = {
+			isa = PBXGroup;
+			children = (
+				406D35232328CF49003EFCC2 /* HUD.swift */,
+			);
+			path = hud;
+			sourceTree = "<group>";
+		};
 		CBE98AC893A84449CFCB45B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +559,8 @@
 				406D34B82328A64D003EFCC2 /* Sources */,
 				406D34B92328A64D003EFCC2 /* Frameworks */,
 				406D34BA2328A64D003EFCC2 /* Resources */,
-				5B283ED189B7DC74E6DA1132 /* [CP] Embed Pods Frameworks */,
 				7F0BBCAF870D5C97BAD00D3D /* [CP] Copy Pods Resources */,
+				096EBB0380E6D5DD374F1BA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +619,7 @@
 				TargetAttributes = {
 					406D34BB2328A64D003EFCC2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					406D34CF2328A64E003EFCC2 = {
 						CreatedOnToolsVersion = 10.1;
@@ -279,6 +679,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		096EBB0380E6D5DD374F1BA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTTPageController/SwiftTTPageController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTTPageController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		26AA0F982C51183510B23D02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,48 +745,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5B283ED189B7DC74E6DA1132 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftTTPageController/SwiftTTPageController.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTTPageController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDTTS/Pods-HDTTS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F0BBCAF870D5C97BAD00D3D /* [CP] Copy Pods Resources */ = {
@@ -378,8 +782,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4006B8842328EC55008D2855 /* MeViewController.swift in Sources */,
+				406D35202328C73D003EFCC2 /* BaseViewController.swift in Sources */,
+				4006B88C2328F630008D2855 /* KLTNaviagtionViewController.m in Sources */,
+				406D35222328C7B0003EFCC2 /* constant.swift in Sources */,
 				406D34C22328A64D003EFCC2 /* ViewController.swift in Sources */,
 				406D34C02328A64D003EFCC2 /* AppDelegate.swift in Sources */,
+				4006B8882328F602008D2855 /* KLTNavigationController.swift in Sources */,
+				406D35242328CF49003EFCC2 /* HUD.swift in Sources */,
+				4006B8862328EC7F008D2855 /* AllViewController.swift in Sources */,
+				4006B8822328EC13008D2855 /* FriendRootController.swift in Sources */,
+				406D351C2328C4C5003EFCC2 /* BaseTabbarController.swift in Sources */,
+				406D351E2328C6C4003EFCC2 /* HomeViewController.swift in Sources */,
+				4006B88F23291408008D2855 /* AnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,16 +970,19 @@
 			baseConfigurationReference = B627045B0EB7DE0830426B91 /* Pods-HDTTS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82659ZG7A7;
-				INFOPLIST_FILE = HDTTS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HDTTSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsb1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "HDTTS/ViewControllers/BaseController/KlTanimateNav/HDTTS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -574,16 +992,18 @@
 			baseConfigurationReference = 3C85D7522522AF210B4A0A8E /* Pods-HDTTS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82659ZG7A7;
-				INFOPLIST_FILE = HDTTS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HDTTSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gsb.HDTTS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsb1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "HDTTS/ViewControllers/BaseController/KlTanimateNav/HDTTS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
